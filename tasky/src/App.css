@@ -1,3 +1,40 @@
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.lowPriority {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mediumPriority {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.highPriority {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
 input[type=text], input[type=date] {
   width: 100%;
   padding: 12px 20px;
